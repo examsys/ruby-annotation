@@ -1,4 +1,4 @@
-tinyMCE.addI18n('en_US',{
+tinyMCE.addI18n('en',{
 	add : 'Add',
   title : 'Ruby annotation',
   preview : 'Preview',

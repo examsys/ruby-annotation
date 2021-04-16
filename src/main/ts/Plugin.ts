@@ -65,7 +65,7 @@ const setup = (editor: Editor, url: string): void => {
 
 export default (): void => {
   // Load the required translation files
-  tinymce.PluginManager.requireLangPack('ruby-annotation', 'en_US');
+  tinymce.PluginManager.requireLangPack('ruby-annotation', 'en');
   // Register the custom plugin
   tinymce.PluginManager.add('ruby-annotation', setup);
 };
