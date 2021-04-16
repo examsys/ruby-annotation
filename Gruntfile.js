@@ -77,11 +77,11 @@ module.exports = (grunt) => {
             );
           }
         },
-        // scratchPluginMinPath is used twice on purpose, all outputs will be minified for premium plugins
+
         files: {
           'dist/ruby-annotation/plugin.js': [
             'src/text/license-header.js',
-            scratchPluginMinPath
+            scratchPluginPath
           ],
           'dist/ruby-annotation/plugin.min.js': [
             'src/text/license-header.js',
@@ -95,6 +95,16 @@ module.exports = (grunt) => {
       css: {
         files: [
           { src: [ 'CHANGELOG.txt', 'LICENSE.txt' ], dest: 'dist/ruby-annotation', expand: true }
+        ]
+      },
+      I18n: {
+        files: [
+          { src: [ 'langs/*' ], dest: 'dist/ruby-annotation', expand: true }
+        ]
+      },
+      icons: {
+        files: [
+          { src: [ 'icons/*' ], dest: 'dist/ruby-annotation', expand: true }
         ]
       }
     },
