@@ -47,7 +47,7 @@ const setup = (editor: Editor, url: string): void => {
         ],
         onChange: function (dialogApi, details) {
           const data = dialogApi.getData();
-          /* Example of enabling and disabling a button, based on the checkbox state. */
+          // Enable the add button if contents added, disable if empty
           const toggle = data.rb ? dialogApi.enable : dialogApi.disable;
           toggle('add');
           document.getElementById('rubyPreview').innerHTML = constructTag(data.rb);
