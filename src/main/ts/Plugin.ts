@@ -12,10 +12,10 @@ declare const tinymce: TinyMCE;
 const setup = (editor: Editor, url: string): void => {
   editor.ui.registry.addButton('ruby-annotation', {
     icon: 'ruby',
-    tooltip: 'title',
+    tooltip: 'ruby',
     onAction: () => {
       tinymce.activeEditor.windowManager.open({
-        title: 'title', // The dialog's title - displayed in the dialog header
+        title: 'ruby', // The dialog's title - displayed in the dialog header
         body: {
           type: 'panel',
           items: [
