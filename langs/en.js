@@ -3,5 +3,5 @@ tinyMCE.addI18n('en',{
   ruby : 'Ruby annotation',
   preview : 'Preview',
   text : 'Text(Text)',
-  cancel: 'Cancel'
+  cancel: 'Cancel',
 });
