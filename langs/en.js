@@ -1,7 +1,7 @@
 tinyMCE.addI18n('en',{
-	add : 'Add',
-  title : 'Ruby annotation',
+  add : 'Add',
+  ruby : 'Ruby annotation',
   preview : 'Preview',
   text : 'Text(Text)',
-  cancel: 'Cancel'
+  cancel: 'Cancel',
 });
