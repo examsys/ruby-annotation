@@ -1,7 +1,7 @@
 /**
  * Ruby annotation plugin for TinyMCE
  *
- * Copyright 2021 University of Nottingham (http://rogo-oss.nottingham.ac.uk)
+ * Copyright 2021 University of Nottingham (http://examsys-oss.nottingham.ac.uk)
  * @author Dr Joseph Baxter
  * @author Naseem Sarwar
  */
