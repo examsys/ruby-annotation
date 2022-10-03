@@ -9,7 +9,7 @@ import { Editor, TinyMCE } from 'tinymce';
 
 declare const tinymce: TinyMCE;
 
-const setup = (editor: Editor, url: string): void => {
+const setup = (editor: Editor): void => {
   editor.ui.registry.addButton('ruby-annotation', {
     icon: 'ruby',
     tooltip: 'ruby',
@@ -45,7 +45,7 @@ const setup = (editor: Editor, url: string): void => {
             primary: true
           }
         ],
-        onChange: function (dialogApi, details) {
+        onChange: function (dialogApi) {
           const data = dialogApi.getData();
           // Enable the add button if contents added, disable if empty
           const toggle = data.rb ? dialogApi.enable : dialogApi.disable;
