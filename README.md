@@ -9,15 +9,23 @@ Contributors:
 * Dr Joseph Baxter
 * Naseem Sarwar
 
-# Deploy instructions
+## Getting started
+
+[Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+Install yarn globally ```npm install --global yarn```
+
+Install the dependencies by running ```npm install```
+
+### Deploy instructions
 
 Run ```yarn build``` to creat dist directory
 
 Copy dist/ruby-annotation to the desired location
 
-See documentation about loading external plugins at [https://www.tiny.cloud/docs/configure/integration-and-setup/#external_plugins](https://www.tiny.cloud/docs/configure/integration-and-setup/#external_plugins)
+See [documentation about loading external plugins](https://www.tiny.cloud/docs/configure/integration-and-setup/#external_plugins)
 
-# Functionality
+## Functionality
 
 Adds a ruby annotation button to the toolbar
 
